@@ -61,7 +61,7 @@ Welcome to my digital showcase—a dynamic, responsive portfolio that tells the 
 ## 🌐 Live Demo
 
 Check out the live portfolio at:
-[https://jbalajireddy.netlify.app/](https://pshashikanthreddy.vercel.app/)
+https://pshashikanthreddy.vercel.app/
 
 ---
 
