@@ -58,6 +58,12 @@ Welcome to my digital showcase—a dynamic, responsive portfolio that tells the 
   Easily host your site with Vercel and GitHub
 
 ---
+## 🌐 Live Demo
+
+Check out the live portfolio at:
+[https://jbalajireddy.netlify.app/](https://pshashikanthreddy.vercel.app/)
+
+---
 
 ## 👌 Quick Start
 
