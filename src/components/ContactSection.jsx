@@ -5,8 +5,7 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
+  Github,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -125,14 +124,26 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.linkedin.com/in/pshashikanthreddy/" target="_blank">
+                <a 
+                  href="https://www.linkedin.com/in/pshashikanthreddy/" 
+                  target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                >
                   <Linkedin />
                 </a>
-                <a href="https://www.instagram.com/shashikanth8938/" target="_blank">
-                  <Instagram />
+                <a 
+                  href="https://github.com/P-ShashiKanthReddy" 
+                  target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                >
+                  <Github />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a 
+                  href="https://www.instagram.com/shashikanth8938/" 
+                  target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                >
+                  <Instagram />
                 </a>
               </div>
             </div>
