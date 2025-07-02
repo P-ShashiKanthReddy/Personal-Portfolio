@@ -48,14 +48,11 @@ export const ProjectsSection = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary/50 mx-auto rounded-full mt-6" />
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <div className="space-y-8 mb-12">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              className={cn(
-                "group glass-card rounded-2xl overflow-hidden card-hover relative",
-                project.featured && "lg:col-span-2"
-              )}
+              className="group glass-card rounded-2xl overflow-hidden card-hover relative"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -71,10 +68,7 @@ export const ProjectsSection = () => {
                 </div>
               )}
 
-              <div className={cn(
-                "grid gap-6",
-                project.featured ? "lg:grid-cols-2" : "grid-cols-1"
-              )}>
+              <div className="grid lg:grid-cols-2 gap-6">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
