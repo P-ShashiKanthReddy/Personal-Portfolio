@@ -173,7 +173,7 @@
   position: relative;
 }
 
-@utility gradient-border::before {
+.gradient-border::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -190,7 +190,7 @@
          hover:scale-105 active:scale-95 relative overflow-hidden;
 }
 
-@utility cosmic-button::before {
+.cosmic-button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -201,7 +201,7 @@
   transition: left 0.5s;
 }
 
-@utility cosmic-button:hover::before {
+.cosmic-button:hover::before {
   left: 100%;
 }
 
