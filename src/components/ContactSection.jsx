@@ -76,7 +76,7 @@ export const ContactSection = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "Hyderabad, Telangana",
+      value: "India",
       href: null
     }
   ];
