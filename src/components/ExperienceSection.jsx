@@ -20,7 +20,7 @@ export const ExperienceSection = () => {
               <div className="flex-grow text-center lg:text-left">
                 <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
                   <h3 className="text-2xl font-semibold text-foreground mb-2 lg:mb-0">
-                    Web Development Project
+                    Software Development Engineer Intern
                   </h3>
                   <div className="flex items-center justify-center lg:justify-end gap-2 text-muted-foreground">
                     <Calendar className="h-4 w-4" />
