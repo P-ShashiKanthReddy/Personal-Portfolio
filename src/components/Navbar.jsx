@@ -63,8 +63,7 @@ export const Navbar = () => {
           <span className="relative z-10">
             <span className="text-glow text-foreground group-hover:text-primary transition-colors duration-300">
               P Shashi Kanth Reddy
-            </span>{" "}
-            <span className="text-primary">Portfolio</span>
+            </span>
           </span>
         </motion.a>
 
