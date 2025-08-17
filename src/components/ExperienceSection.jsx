@@ -1,10 +1,24 @@
 import { Timeline } from "./Timeline";
+import { Award, FileText } from "lucide-react";
+import { motion } from "framer-motion";
 
 const experienceData = [
   {
     date: "Jul 2025 – Aug 2025",
     title: "Full Stack Web Development Intern",
     company: "Future Interns",
+    certificates: [
+      {
+        name: "Internship Certificate",
+        url: "/P SHASHI KANTH REDDY Internship Certificate.pdf",
+        type: "certificate"
+      },
+      {
+        name: "Letter of Recommendation",
+        url: "/P SHASHI KANTH REDDY LoR.pdf",
+        type: "letter"
+      }
+    ],
     contents: [
       "Successfully completed a comprehensive 1-month internship in Full Stack Web Development, demonstrating outstanding performance and technical proficiency throughout the program.",
       "Developed and deployed multiple full-stack projects including a responsive personal portfolio website, a feature-rich mini e-commerce storefront with shopping cart functionality, and a modern AI-driven website with complete rebranding.",
@@ -17,6 +31,7 @@ const experienceData = [
     date: "Nov 2024 – Dec 2024",
     title: "Software Development Engineer Intern",
     company: "Web Development Project",
+    certificates: [],
     contents: [
       "Developed a responsive web application delivering IPO-related information using React.js, Django, and PostgreSQL, with a focus on front-end development and REST API integration.",
       "Designed intuitive, mobile-friendly user interfaces with HTML5, CSS3, JavaScript, Bootstrap, and Tailwind CSS to ensure seamless user experience.",

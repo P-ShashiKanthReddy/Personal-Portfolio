@@ -1,5 +1,6 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { Award, FileText, ExternalLink } from "lucide-react";
 
 export const Timeline = ({ data }) => {
   const ref = useRef(null);
@@ -60,6 +61,36 @@ export const Timeline = ({ data }) => {
                       </p>
                     </div>
                   ))}
+                  
+                  {item.certificates && item.certificates.length > 0 && (
+                    <div className="mt-6 pt-4 border-t border-border/50">
+                      <h5 className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
+                        <Award className="h-4 w-4 text-primary" />
+                        Certificates & Documents
+                      </h5>
+                      <div className="flex flex-wrap gap-3">
+                        {item.certificates.map((cert, certIndex) => (
+                          <motion.a
+                            key={certIndex}
+                            href={cert.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary hover:text-primary border border-primary/20 hover:border-primary/40 transition-all duration-300 text-sm font-medium group"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            {cert.type === "certificate" ? (
+                              <Award className="h-4 w-4" />
+                            ) : (
+                              <FileText className="h-4 w-4" />
+                            )}
+                            {cert.name}
+                            <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                          </motion.a>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
