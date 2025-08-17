@@ -2,6 +2,18 @@ import { Timeline } from "./Timeline";
 
 const experienceData = [
   {
+    date: "Jul 2025 – Aug 2025",
+    title: "Full Stack Web Development Intern",
+    company: "Future Interns",
+    contents: [
+      "Successfully completed a comprehensive 1-month internship in Full Stack Web Development, demonstrating outstanding performance and technical proficiency throughout the program.",
+      "Developed and deployed multiple full-stack projects including a responsive personal portfolio website, a feature-rich mini e-commerce storefront with shopping cart functionality, and a modern AI-driven website with complete rebranding.",
+      "Gained extensive hands-on experience with modern web technologies including HTML5, CSS3, JavaScript ES6+, React.js for frontend development, and Node.js with MongoDB for robust backend solutions.",
+      "Mastered responsive UI/UX design principles, database integration techniques, RESTful API development, and modern deployment practices using cloud platforms.",
+      "Collaborated effectively in an agile development environment, participating in code reviews, sprint planning, and delivering high-quality solutions within tight deadlines."
+    ]
+  },
+  {
     date: "Nov 2024 – Dec 2024",
     title: "Software Development Engineer Intern",
     company: "Web Development Project",
