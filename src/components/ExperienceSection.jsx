@@ -31,7 +31,13 @@ const experienceData = [
     date: "Nov 2024 – Dec 2024",
     title: "Software Development Engineer Intern",
     company: "Web Development Project",
-    certificates: [],
+    certificates: [
+      {
+        name: "Internship Certificate",
+        url: "/BFENSD23316 (1).jpg",
+        type: "certificate"
+      }
+    ],
     contents: [
       "Developed a responsive web application delivering IPO-related information using React.js, Django, and PostgreSQL, with a focus on front-end development and REST API integration.",
       "Designed intuitive, mobile-friendly user interfaces with HTML5, CSS3, JavaScript, Bootstrap, and Tailwind CSS to ensure seamless user experience.",
